@@ -34,6 +34,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         tagline
+        description
         featuredImage {
           childImageSharp {
             gatsbyImageData(layout: CONSTRAINED, width: 585, height: 439)
@@ -210,7 +211,7 @@ const HomePage = ({ data }) => {
           </p>
           <div
             className="description"
-            dangerouslySetInnerHTML={{ __html: html }}
+            dangerouslySetInnerHTML={{ __html: frontmatter.description }}
           />
           <Link
             to={frontmatter.cta.ctaLink}
@@ -245,7 +246,10 @@ const HomePage = ({ data }) => {
           )}
         </div>
       </div>
-      <BlogListHome data={posts} />
+      <div className="wrapper">
+        <article dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
+      {/* <BlogListHome data={posts} /> */}
     </Layout>
   )
 }

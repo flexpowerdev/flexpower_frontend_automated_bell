@@ -16,7 +16,7 @@ public_folder: "/assets"
 
 collections:
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Posts" # Used in the UI
+    label: "Products" # Used in the UI
     label_singular: "Post" # Used in the UI, ie: "New Post"
     description: >
       Create awesome content here.
