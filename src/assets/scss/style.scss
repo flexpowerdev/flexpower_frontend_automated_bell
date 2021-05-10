@@ -427,6 +427,12 @@ article img {
     }
   }
 }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #image-description {
+    width: "50vw";
+  }
+}
 
 @import "utility";
 

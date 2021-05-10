@@ -95,17 +95,19 @@ const Post = ({ data, pageContext }) => {
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
-            <time sx={{color: "muted"}}>{frontmatter.date}</time>
+            <p sx={{ color: "muted" }}>{frontmatter.description}</p>
           </section>
-          {Image ? (
-            <GatsbyImage
-              image={Image}
-              alt={frontmatter.title + " - Featured image"}
-              className="featured-image"
-            />
-          ) : (
-            ""
-          )}
+          <div style={{ margin: "auto", width: "70vw" }}>
+            {Image ? (
+              <GatsbyImage
+                image={Image}
+                alt={frontmatter.title + " - Featured image"}
+                className="featured-image"
+              />
+            ) : (
+              ""
+            )}
+          </div>
         </header>
 
         <div
