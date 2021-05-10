@@ -220,7 +220,7 @@ collections:
             widget: "color"
             enableAlpha: true
             allowInput: true
- -  label: "Contact"
+  - label: "Contact"
     name: "Contact"
     identifier_field: "name"
     files:
@@ -233,4 +233,3 @@ collections:
             widget: "text"
             hint: "Add phone number"
             required: true
-    
