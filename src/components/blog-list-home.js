@@ -15,24 +15,12 @@ export default function BlogListHome(props) {
 
 const PostMaker = ({ data }) => (
   <section className="home-posts">
-    <h4>
+    <h2>
       Our <strong>Products</strong>{" "}
       <span className="icon -right">
         <RiArrowDownLine />
       </span>
-    </h4>
+    </h2>
     <div className="grids col-1 sm-2 lg-3">{data}</div>
-    <Link
-      className="button"
-      to="/blog"
-      sx={{
-        variant: "variants.button",
-      }}
-    >
-      See more
-      <span className="icon -right">
-        <RiArrowRightSLine />
-      </span>
-    </Link>
   </section>
 )

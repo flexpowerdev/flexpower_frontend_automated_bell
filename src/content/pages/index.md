@@ -10,7 +10,7 @@ cta:
   ctaLink: /about
 ---
 
-### About
+# About
 
 Flexpower Automation & Controls is all about passion in the field of Automation, both Industrial and Building Automation. We are inspired to excellence through a passion for what we do. The driving force combined with professional service enables us to deliver you solutions that not only satisfy your needs but also lay the foundation for continued support.
 
@@ -18,7 +18,7 @@ We provide a host of Electrical services that include all Building blocks necess
 
 Our experience, passion and proven track record for solving even the most perplexing production challenges have established us as their partner of choice when the best result is the only option. We have become the authoritative voice of experience they listen to. One reason for that is how well we listen to our customers; understanding their needs and the results they require. Again, and again, our customers call on us as their partner of choice.
 
-### Highlights
+# Highlights
 
 * Automatically rings your school bells at preset times the entire week.
 * Accuracy to timings switches bell on and off at the exact required time

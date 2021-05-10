@@ -238,8 +238,8 @@ const HomePage = ({ data }) => {
         <div>
           {Image ? (
             <GatsbyImage
-              objectFit="contain"
               image={Image}
+              imageStyle={{ objectFit: `contain` }}
               alt={frontmatter.title + " - Featured image"}
               className="featured-image"
             />
@@ -249,9 +249,12 @@ const HomePage = ({ data }) => {
         </div>
       </div>
       <div className="wrapper">
-        <article dangerouslySetInnerHTML={{ __html: html }} />
+        <article id="about" dangerouslySetInnerHTML={{ __html: html }} />
       </div>
-      <BlogListHome data={posts} />
+      <div id="products">
+        {" "}
+        <BlogListHome data={posts} />{" "}
+      </div>
     </Layout>
   )
 }

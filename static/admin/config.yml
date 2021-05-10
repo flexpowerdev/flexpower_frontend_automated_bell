@@ -55,12 +55,6 @@ collections:
           tagname: "",
         }
 
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          hint: "Main content goes here.",
-        }
   - label: "Pages"
     name: "pages"
     files:
@@ -226,3 +220,17 @@ collections:
             widget: "color"
             enableAlpha: true
             allowInput: true
+ -  label: "Contact"
+    name: "Contact"
+    identifier_field: "name"
+    files:
+      - label: "Company Contact"
+        name: "contact"
+        file: "src/util/contact.json"
+        fields:
+          - label: "Phone Number"
+            name: "Phone Number"
+            widget: "text"
+            hint: "Add phone number"
+            required: true
+    

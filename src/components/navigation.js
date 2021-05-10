@@ -11,15 +11,15 @@ const MenuItems = [
     title: "Home",
   },
   {
-    path: "/about",
+    path: "/#about",
     title: "About",
   },
   {
-    path: "/products",
+    path: "/#products",
     title: "Products",
   },
   {
-    path: "/contact",
+    path: "/#contact",
     title: "Contact",
   },
 ]
