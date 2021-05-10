@@ -146,7 +146,7 @@ collections:
               - widget: image
                 name: image
                 label: image
-                default: "/assets/stackrole.png"
+                default: "/assets/flexpower.jpg"
               - widget: image
                 name: iconimage
                 label: favicon
@@ -231,5 +231,6 @@ collections:
           - label: "Phone Number"
             name: "Phone Number"
             widget: "text"
+            default: "%s"
             hint: "Add phone number"
             required: true

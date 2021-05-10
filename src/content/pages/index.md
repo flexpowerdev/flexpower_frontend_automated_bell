@@ -7,7 +7,7 @@ tagline: Automated School Bells System-Kenya
 featuredImage: /assets/autobell.jpeg
 cta:
   ctaText: Know more
-  ctaLink: /about
+  ctaLink: /#about
 ---
 
 # About
