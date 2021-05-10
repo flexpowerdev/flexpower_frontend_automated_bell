@@ -59,6 +59,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             slug
             title
+            description
             featuredImage {
               childImageSharp {
                 gatsbyImageData(layout: CONSTRAINED, width: 345, height: 260)
@@ -237,6 +238,7 @@ const HomePage = ({ data }) => {
         <div>
           {Image ? (
             <GatsbyImage
+              objectFit="contain"
               image={Image}
               alt={frontmatter.title + " - Featured image"}
               className="featured-image"
@@ -249,7 +251,7 @@ const HomePage = ({ data }) => {
       <div className="wrapper">
         <article dangerouslySetInnerHTML={{ __html: html }} />
       </div>
-      {/* <BlogListHome data={posts} /> */}
+      <BlogListHome data={posts} />
     </Layout>
   )
 }

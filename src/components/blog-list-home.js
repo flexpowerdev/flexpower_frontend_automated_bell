@@ -15,12 +15,12 @@ export default function BlogListHome(props) {
 
 const PostMaker = ({ data }) => (
   <section className="home-posts">
-    <h2>
-      Latest in <strong>Blog</strong>{" "}
+    <h4>
+      Our <strong>Products</strong>{" "}
       <span className="icon -right">
         <RiArrowDownLine />
       </span>
-    </h2>
+    </h4>
     <div className="grids col-1 sm-2 lg-3">{data}</div>
     <Link
       className="button"

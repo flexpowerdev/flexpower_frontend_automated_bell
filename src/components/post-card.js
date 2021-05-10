@@ -38,7 +38,7 @@ const PostCard = ({ data }) => (
           color: "muted",
         }}
       >
-        <time>{data.frontmatter.date}</time>
+        <p>{data.frontmatter.description}</p>
       </p>
     </div>
   </article>
