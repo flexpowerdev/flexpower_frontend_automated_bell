@@ -102,7 +102,7 @@ module.exports = {
         short_name: `Flexpower Automation & Controls`,
         start_url: `/`,
         background_color: `#f7f0eb`,
-        theme_color: `#0B92D0`,
+        theme_color: `#00659f`,
         display: `standalone`,
         icon: "static" + settings.meta.iconimage,
       },
