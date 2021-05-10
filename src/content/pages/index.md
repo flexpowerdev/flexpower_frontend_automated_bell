@@ -28,3 +28,7 @@ Our experience, passion and proven track record for solving even the most perple
 * You can Upgrade your manual bell system to an automatic bell system
 * Dual Operation Mode; The bell can be switched to operate manually or to run automatically.
 * This makes it easy to be used during an emergency that is off schedule.
+
+Some of the schools where the system has been installed;
+* **St. Phillip Neri Primary School**
+* **Oshwal Primary School**
