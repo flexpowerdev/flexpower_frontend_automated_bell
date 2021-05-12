@@ -3,6 +3,7 @@ import { jsx } from "theme-ui"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightSLine } from "react-icons/ri"
+import { HiExternalLink } from "react-icons/hi"
 import {
   RiFacebookBoxFill,
   RiTwitterFill,
@@ -71,7 +72,7 @@ export const pageQuery = graphql`
     }
   }
 `
-
+const orange = "#FE6600"
 const HomePage = ({ data }) => {
   const { markdownRemark, posts } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
@@ -83,77 +84,77 @@ const HomePage = ({ data }) => {
       <div key={"social icons" + index}>
         {icons.icon === "facebook" ? (
           <Link to={icons.url} target="_blank">
-            <RiFacebookBoxFill />
+            <RiFacebookBoxFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "twitter" ? (
           <Link to={icons.url} target="_blank">
-            <RiTwitterFill />
+            <RiTwitterFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "linkedin" ? (
           <Link to={icons.url} target="_blank">
-            <RiLinkedinBoxFill />
+            <RiLinkedinBoxFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "youtube" ? (
           <Link to={icons.url} target="_blank">
-            <RiYoutubeFill />
+            <RiYoutubeFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "instagram" ? (
           <Link to={icons.url} target="_blank">
-            <RiInstagramFill />
+            <RiInstagramFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "rss" ? (
           <Link to={icons.url} target="_blank">
-            <RiRssFill />
+            <RiRssFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "github" ? (
           <Link to={icons.url} target="_blank">
-            <RiGithubFill />
+            <RiGithubFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "telegram" ? (
           <Link to={icons.url} target="_blank">
-            <RiTelegramFill />
+            <RiTelegramFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "pinterest" ? (
           <Link to={icons.url} target="_blank">
-            <RiPinterestFill />
+            <RiPinterestFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "snapchat" ? (
           <Link to={icons.url} target="_blank">
-            <RiSnapchatFill />
+            <RiSnapchatFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "skype" ? (
           <Link to={icons.url} target="_blank">
-            <RiSkypeFill />
+            <RiSkypeFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
@@ -167,21 +168,21 @@ const HomePage = ({ data }) => {
         )}
         {icons.icon === "dribbble" ? (
           <Link to={icons.url} target="_blank">
-            <RiDribbbleFill />
+            <RiDribbbleFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "medium" ? (
           <Link to={icons.url} target="_blank">
-            <RiMediumFill />
+            <RiMediumFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "behance" ? (
           <Link to={icons.url} target="_blank">
-            <RiBehanceFill />
+            <RiBehanceFill style={{ color: orange }} />
           </Link>
         ) : (
           ""
@@ -248,12 +249,29 @@ const HomePage = ({ data }) => {
           )}
         </div>
       </div>
-      <div className="wrapper">
-        <article id="about" dangerouslySetInnerHTML={{ __html: html }} />
-      </div>
+
       <div id="products">
         {" "}
         <BlogListHome data={posts} />{" "}
+      </div>
+      <div className="wrapper">
+        <article id="about" dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
+      <div style={{ margin: "1rem" }}>
+        <Link
+          target="_blank"
+          to="http://flexautomation.co.ke/"
+          className="button"
+          style={{ background: "#FE6600" }}
+          sx={{
+            variant: "variants.button",
+          }}
+        >
+          Continue to our main website
+          <span className="icon -right">
+            <HiExternalLink />
+          </span>
+        </Link>
       </div>
     </Layout>
   )
