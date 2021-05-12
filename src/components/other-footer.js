@@ -205,7 +205,7 @@ const OtherFooter = () => {
   const theme = useTheme()
   const matches = useMediaQuery(theme.breakpoints.down("md"))
   return (
-    <div className={classes.root}>
+    <div id="contact" className={classes.root}>
       <Grid container className={classes.containerFooter}>
         <Grid
           container
@@ -316,7 +316,14 @@ const OtherFooter = () => {
             </Link>
           </Typography>
         </Grid>
-        <Grid item xs="12" sm="4" className={classes.containerInnerFooter}>
+        <Grid
+          item
+          xs="12"
+          sm="12"
+          md="6"
+          lg="4"
+          className={classes.containerInnerFooter}
+        >
           <div style={{ display: "flex", flexDirection: "column" }}>
             <a
               href={`tel:${Contact.phonenumber}`}
@@ -332,12 +339,17 @@ const OtherFooter = () => {
               </span>
             </a>
             <a
-              href={`tel:${Contact.phonenumber}`}
+              href={`mailto:${Contact.email}`}
               className="button"
               sx={{
                 variant: "variants.button",
               }}
-              style={{ margin: "1rem", background: "white", color: "black" }}
+              style={{
+                margin: "1rem",
+                padding: "1rem",
+                background: "white",
+                color: "black",
+              }}
             >
               {`email us : ${Contact.email}`}
               <span className="icon -right">

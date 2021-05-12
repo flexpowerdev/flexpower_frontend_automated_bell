@@ -1,6 +1,7 @@
 @import "theme-variables";
 @import "defaults";
 @import "lib/css-grid-utility";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 // .primary-container {
 // 	display: grid;
@@ -431,13 +432,16 @@ article img {
   color: #0b92d0;
 }
 h1 {
-  color: #0b92d0;
+  color: #fe6600;
 }
 h2 {
-  color: #0b92d0;
+  color: #00659f;
+}
+h4 {
+  color: #00659f;
 }
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {

@@ -4,16 +4,16 @@ slug: /
 title: Automatic School Bell
 description: An automatic bell system sets your school bell to ring all day, all week, and term according to your school timetable without the intervention of a timekeeper. Our system uses a simple basic microcontroller that is flexible and can be programmed according to your school timing.
 tagline: Automated School Bells System-Kenya
-featuredImage: /assets/autobell.jpeg
+featuredImage: /assets/avery-klein-c_drtsnboqa-unsplash.jpg
 cta:
   ctaText: Know more
   ctaLink: /#about
 ---
 
-# About
+## About
 
 Flexpower Automation & Controls is all about passion in the field of Automation, both Industrial and Building Automation. We are inspired to excellence through a passion for what we do. The driving force combined with professional service enables us to deliver you solutions that not only satisfy your needs but also lay the foundation for continued support.
-## Highlights
+#### Highlights
 
 * Automatically rings your school bells at preset times the entire week.
 * Accuracy to timings switches bell on and off at the exact required time
