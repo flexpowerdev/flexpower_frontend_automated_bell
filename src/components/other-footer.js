@@ -366,9 +366,9 @@ const OtherFooter = () => {
           xs="12"
           sm="9"
         >
-          © 2020 Flexpower Automation & Controls, Ltd
+          © 2021 Flexpower Automation & Controls, Ltd
         </Grid>
-        <Grid container direaction="row" item xs="12" sm="3">
+        <Grid container direction="row" item xs="12" sm="3">
           <Typography
             variant="body1"
             component="p"
