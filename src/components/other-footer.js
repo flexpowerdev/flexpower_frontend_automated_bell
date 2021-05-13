@@ -27,6 +27,7 @@ import {
 import { FaWordpress, FaVk } from "react-icons/fa"
 import Icons from "../util/socialmedia.json"
 import Contact from "../util/contact.json"
+import { my_colors } from "../values/colors"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -331,7 +332,11 @@ const OtherFooter = () => {
               sx={{
                 variant: "variants.button",
               }}
-              style={{ margin: "1rem", background: "white", color: "black" }}
+              style={{
+                margin: "1rem",
+                background: my_colors.secondary_color,
+                color: "white",
+              }}
             >
               {`call us : ${Contact.phonenumber}`}
               <span className="icon -right">
@@ -347,8 +352,8 @@ const OtherFooter = () => {
               style={{
                 margin: "1rem",
                 padding: "1rem",
-                background: "white",
-                color: "black",
+                background: my_colors.primary_color,
+                color: "white",
               }}
             >
               {`email us : ${Contact.email}`}
