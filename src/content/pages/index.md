@@ -7,7 +7,7 @@ description: An automatic bell system sets your school bell to ring all day, all
   a timekeeper. Our system uses a simple basic microcontroller that is flexible
   and can be programmed according to your school timing.
 tagline: Automated School Bells System-Kenya
-featuredImage: /assets/industrialbell.jpg
+featuredImage: /assets/alarm-bell.jpg
 cta:
   ctaText: Know more
   ctaLink: /#about
