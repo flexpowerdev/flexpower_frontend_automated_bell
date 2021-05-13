@@ -9,5 +9,5 @@ description: >-
   intervention.
 
   It is programmed only once and Stores & Schedule times for automatic play on each day of the week/Term.
-featuredImage: /assets/images (3).jpeg
+featuredImage: /assets/images.jpeg
 ---
