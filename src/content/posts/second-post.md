@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Logo 8! Micro Controller
+title: Logo 8! RCE Micro Controller
 slug: /SiemensLogo-8!PLC
 date: 2021-05-13 15:41
 description: >
