@@ -1,8 +1,10 @@
 ---
 template: blog-post
-title: Automated  bell Controller
-slug: /automated-bell Controller
+title: Logo 8! Micro Controller
+slug: /Siemens Logo-8! PLC
 date: 2019-07-10T00:00:00.000Z
-description: description
-featuredImage: https://assets.new.siemens.com/siemens/assets/api/uuid:1e0891cc-a207-4bc4-9bb3-9e80de5d0490/width:640/quality:high/logo-8-24ce-basismodul-mit-display-white.png
+description: >
+  
+  Siemens Logo 8! 12/24 RCE is a multi-purpose Programmable Logic Controller(PLC) that can be used in small automation projects with simple and intuitive configuration and operation. It is available in 12/24RCE for 24 Vdc Supply and 230 RCE for 230 Ac Supply. Logo 8! Can be expanded with additional I/O modules or communication modules.
+featuredImage: /assets/6ed1052-1md00-0ba8_siemens_logo.jpg
 ---
