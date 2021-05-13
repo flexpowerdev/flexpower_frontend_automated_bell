@@ -37,7 +37,7 @@ const Layout = ({ children, className, props }) => {
       <Header>
         <img
           src={
-            "https://flexpowercompany.firebaseapp.com/static/media/icon.bf7de6a8.jpg"
+            "https://res.cloudinary.com/de78mkkoo/image/upload/v1620892355/logo/2021-05-13_10_50_42-Untitled-2_t3jsw7.png"
           }
           alt="logo"
           style={{
