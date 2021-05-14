@@ -38,7 +38,7 @@ export const pageQuery = graphql`
         description
         featuredImage {
           childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED, width: 585, height: 439)
+            gatsbyImageData(layout: CONSTRAINED, width: 450, height: 439)
           }
         }
         cta {
@@ -63,7 +63,7 @@ export const pageQuery = graphql`
             description
             featuredImage {
               childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED, width: 345, height: 260)
+                gatsbyImageData(layout: CONSTRAINED, width: 345, height: 345)
               }
             }
           }

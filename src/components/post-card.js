@@ -13,6 +13,7 @@ const PostCard = ({ data }) => (
     {data.frontmatter.featuredImage ? (
       <Link to={data.frontmatter.slug}>
         <GatsbyImage
+          objectFit="contain"
           image={data.frontmatter.featuredImage.childImageSharp.gatsbyImageData}
           alt={data.frontmatter.title + " - Featured image"}
           className="featured-image"

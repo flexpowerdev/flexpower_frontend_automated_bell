@@ -100,7 +100,6 @@ const Post = ({ data, pageContext }) => {
           <div style={{ margin: "auto", width: "70vw" }}>
             {Image ? (
               <GatsbyImage
-                objectFit="contain"
                 image={Image}
                 alt={frontmatter.title + " - Featured image"}
                 className="featured-image"
