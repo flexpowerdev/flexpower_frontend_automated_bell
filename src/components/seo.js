@@ -31,6 +31,10 @@ const SEO = ({ title, description, image, article }) => {
       <link rel="alternate" href={seo.url} hreflang="en" />
       <link rel="alternate" href={seo.url} hreflang="x-default" />
       <meta name="description" content={seo.description} />
+      <meta
+        name="google-site-verification"
+        content="g6xmIt1Nxq79YwsKqss5dQXLImG0Tkt4DIye175IlJc"
+      />
       <meta name="image" content={seo.image} />
       <meta
         name="viewport"
